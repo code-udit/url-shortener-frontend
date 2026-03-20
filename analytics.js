@@ -10,7 +10,7 @@ async function loadAnalytics() {
   document.getElementById("code").innerText = shortCode;
 
   try {
-    const response = await fetch(`/api/analytics/${shortCode}`);
+    const response = await fetch(`https://url-shortener-backend-4a8d.onrender.com/api/analytics/${shortCode}`);
     const data = await response.json();
 
     if (data.error) {
