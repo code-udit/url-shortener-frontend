@@ -1,0 +1,17 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+
+# Cache / temp
+.cache/
+.tmp/
+
+# Optional (if you ever add build tools later)
+dist/
+build/

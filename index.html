@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shortify — Smart URL Shortener</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <nav class="navbar">
+      <div class="logo">Shortify</div>
+      <div class="tagline">
+        Engineered by Udit U Gunagi
+      </div>
+    </nav>
+
+    <div class="hero">
+      <h1>Transform Long URLs Into Smart Links</h1>
+      <p>Create short, trackable links instantly.</p>
+
+      <div class="shortener-box">
+        <input type="text" id="longUrl" placeholder="Paste your long URL here..." />
+        <input type="text" id="customCode" placeholder="Custom short code (optional)" />
+        <button id="shortenBtn">Shorten</button>
+      </div>
+
+      <!-- ✅ THIS WAS MISSING -->
+      <div id="result" class="result"></div>
+      <div id="loader" class="loader hidden"></div>
+
+    </div>
+
+    <footer>
+      <p>Built with Node.js • PostgreSQL • Docker</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
