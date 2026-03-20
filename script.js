@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     loader.classList.remove("hidden");
 
     try {
-      const response = await fetch("/api/shorten", {
+      const response = await fetch("https://url-shortener-backend-4a8d.onrender.com/api/shorten", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -48,8 +48,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         resultDiv.innerHTML = `
           <p>Your Short Link:</p>
-          <a id="shortLink" href="http://localhost:3000/${shortCode}" target="_blank">
-            shortify.io/${shortCode}
+          <a id="shortLink" href="https://url-shortener-backend-4a8d.onrender.com/${shortCode}" target="_blank">
+            https://url-shortener-backend-4a8d.onrender.com/${shortCode}
           </a>
           <button id="copyBtn" class="copy-btn">Copy</button>
           <button id="analyticsBtn" class="copy-btn">Analytics</button>
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         document.getElementById("copyBtn")
           .addEventListener("click", () => {
-            navigator.clipboard.writeText(`shortify.io/${shortCode}`)
+            navigator.clipboard.writeText(`https://url-shortener-backend-4a8d.onrender.com/${shortCode}`)
               .then(() => alert("Link copied!"));
           });
 
