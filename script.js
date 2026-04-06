@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     loader.classList.remove("hidden");
 
     try {
-      const response = await fetch("https://url-shortener-backend-4a8d.onrender.com/api/shorten", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/shorten`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

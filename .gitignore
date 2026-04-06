@@ -12,6 +12,9 @@ Thumbs.db
 .cache/
 .tmp/
 
+# local env specifically
+.env.local
+
 # Optional (if you ever add build tools later)
 dist/
 build/
