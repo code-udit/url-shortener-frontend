@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const longUrl = longUrlInput.value;
     const customCode = customCodeInput ? customCodeInput.value : null;
+    const API_URL = "https://url-shortener-backend-4a8d.onrender.com";
 
     if (!longUrl) {
       alert("Please enter a URL");
@@ -27,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     loader.classList.remove("hidden");
 
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/shorten`, {
+      const response = await fetch(`${API_URL}/api/shorten`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
