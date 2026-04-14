@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const longUrl = longUrlInput.value;
     const customCode = customCodeInput ? customCodeInput.value : null;
-    const API_URL = "https://url-shortener-backend-4a8d.onrender.com";
+    const API_URL = "https://url-shortener-backend-gbxf.onrender.com";
 
     if (!longUrl) {
       alert("Please enter a URL");
