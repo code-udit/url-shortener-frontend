@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         resultDiv.innerHTML = `
           <p>Your Short Link:</p>
-          <a id="shortLink" href="https://url-shortener-backend-4a8d.onrender.com/${shortCode}" target="_blank">
-            https://url-shortener-backend-4a8d.onrender.com/${shortCode}
+          <a id="shortLink" href="https://url-shortener-backend-gbxf.onrender.com/${shortCode}" target="_blank">
+            https://url-shortener-backend-gbxf.onrender.com/${shortCode}
           </a>
           <button id="copyBtn" class="copy-btn">Copy</button>
           <button id="analyticsBtn" class="copy-btn">Analytics</button>
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         document.getElementById("copyBtn")
           .addEventListener("click", () => {
-            navigator.clipboard.writeText(`https://url-shortener-backend-4a8d.onrender.com/${shortCode}`)
+            navigator.clipboard.writeText(`https://url-shortener-backend-gbxf.onrender.com/${shortCode}`)
               .then(() => alert("Link copied!"));
           });
 

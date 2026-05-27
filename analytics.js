@@ -36,7 +36,7 @@ async function loadAnalytics() {
   }, 6000);
 
   try {
-    const response = await fetch(`https://url-shortener-backend-4a8d.onrender.com/api/analytics/${shortCode}`);
+    const response = await fetch(`https://url-shortener-backend-gbxf.onrender.com/api/analytics/${shortCode}`);
     const data = await response.json();
 
     clearTimeout(timer);
