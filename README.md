@@ -167,3 +167,8 @@ Displays:
 * Search and Filtering
 * Link Management Dashboard
 
+---
+
+## 👨‍💻 Author
+
+Developed by **Udit U Gunagi**
