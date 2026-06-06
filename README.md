@@ -1,5 +1,9 @@
 # URL Shortener Frontend
 
+### 👨‍💻 Developed By
+
+**Udit U Gunagi**
+
 A modern URL shortening web application built with HTML, CSS, and JavaScript that allows users to generate short links, create custom aliases, copy shortened URLs instantly, and view analytics for every generated link.
 
 ---
